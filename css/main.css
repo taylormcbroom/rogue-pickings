@@ -1,0 +1,142 @@
+
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color:#000000
+}
+
+/***** GRID *****/
+
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width:600px;
+  margin: 0 auto;
+  overflow: auto;
+  float: left;
+}
+
+.third-width {
+  width:340px;
+  margin: 0 auto;
+  overflow: auto;
+  float: left;
+}
+
+/***** HEADER *****/
+header h1 {
+  font-size: 30px;
+  text-transform:uppercase;
+  font-weight: 700;
+}
+
+header span {
+  color:#77a466;
+}
+
+nav {
+  float:right;
+}
+
+nav ul li{
+  display:inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color:#77a466;
+  text-transform:uppercase;
+}
+
+/***** About *****/
+
+img {
+  margin-top: 15px;
+  margin-bottom:15px;
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+}
+
+#about h2 {
+  font-size:18px;
+  color:#77a466;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+#about p {
+  font-size:16px;
+  line-height:25px;
+}
+
+/***** Info *****/
+
+#info .full-width {
+border-top: 1px solid #dedbdc;
+border-bottom: 1px solid #dedbdc;
+}
+
+#info .third-width {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#info h3 {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#info ul li {
+  font-size: 16px;
+  color: #77a466;
+  list-style-type: none;
+  line-height:30px;
+}
+
+#info ul {
+  margin:0px;
+  padding:0px;
+}
+
+#info #section-one {
+  padding-right: 30px
+}
+
+#info #section-two {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size:16px;
+  line-height:21px;
+}
+
+#info #section-three {
+  text-align:left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#info #section-three p {
+  line-height:10px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:16px
+}
+
+footer span {
+  text-transform: lowercase;
+  font-family: 'galada', sans-serif;
+  color:#77a466;
+}
